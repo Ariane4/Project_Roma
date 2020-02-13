@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgba(0,0,0,0.5);
     background-image: url(../img/cleo-topper.jpg);
+    background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -53,11 +55,15 @@ i{
 }
 .Green{
     color: #6bc1a3;
-    font-size: 2em;
+    font-size: 1.9em;
     font-family: 'Santio Bold';
+    padding: 8em 21em 8em 4em;
+    line-height: 1.7em;
 }
-p .Green{
-    padding-left: 2em;
-    width: 50%;
-
+.Green p{
+    padding:0  4em;
+}
+.Green span{
+    color:#fff;
+    background-color:#000;
 }
