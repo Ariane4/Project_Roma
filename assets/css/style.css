@@ -63,7 +63,26 @@ i{
 .Green p{
     padding:0  4em;
 }
-.Green span{
+#Black{
     color:#fff;
     background-color:#000;
+}
+.Gold img{
+    width: 8%;
+    padding-left: 25%;
+}
+.Gold h2{
+    color: #e7bc0e;
+    padding-left: 25%;
+    font-size: 7em;
+    font-family: 'Santio Bold';
+    margin: 0.5em 0 0 0;
+}
+.Gold p{
+    color: #e7bc0e;
+    padding-left: 25%;
+    font-size: 1.9em;
+    font-family: 'Santio Bold';
+    padding-top: 0;
+    margin:0
 }
