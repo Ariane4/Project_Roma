@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/cleo-topper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+@font-face{
+    font-family: 'Santio Bold';
+    src: local('Santio Bold'), url(/assets/css/santio-cufonfonts-webfont/Santio\ Bold.woff)
+}
+header{
+    text-align: right;
+    padding-top: 1em;
+}
+header img{
+    height: 25px;
+    width: 25px;
+    padding-right: 0.5em;
+}
+header a{
+    padding-right: 3em;
+    text-decoration: underline #e7bc0e;
+    color: white;
+}
+#Auto h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    color: white;
+    padding: 2em 0 1em 2em;
+    width: 26%;
+    margin:0;
+}
+.Scroll a{
+    color: #e7bc0e; 
+    font-family: 'Mr Dafoe', cursive;
+    padding-left: 4.2em;
+    font-size: 2em;
+    text-decoration: none;
+}
+i{
+    border: solid #e7bc0e;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 10px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.Green{
+    color: #6bc1a3;
+    font-size: 2em;
+    font-family: 'Santio Bold';
+}
+p .Green{
+    padding-left: 2em;
+    width: 50%;
+
+}
