@@ -11,7 +11,7 @@ body{
 }
 @font-face{
     font-family: 'Santio Bold';
-    src: local('Santio Bold'), url(santio-cufonfonts-webfont/Santio\ Bold.woff)
+    src: local('Santio Bold'), url(santio-cufonfonts-webfont/SantioBold.woff)
 }
 header{
     text-align: right;
